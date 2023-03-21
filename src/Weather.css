@@ -1,0 +1,79 @@
+.Weather {
+  border: 1px solid lightyellow;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: lightyellow;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  font-family: "Poppins", sans-serif;
+}
+.Weather h1 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 29px;
+  margin: 20px 0 0 10px;
+}
+.Weather .FormattedDate {
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.Weather .current-weather {
+  padding-top: 30px;
+}
+.Weather img {
+  height: 64px;
+  width: 64px;
+}
+.Weather .temperature {
+  font-weight: bold;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 64px;
+  margin-left: 14px;
+}
+.Weather .unit {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  position: relative;
+  top: -32px;
+  margin-left: 5px;
+}
+.Weather p {
+  color: dimgray;
+  margin-left: 30px;
+}
+.WeatherForecast {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.WeatherForecast .WeatherForecast-one-day {
+  margin-left: 5px;
+}
+.WeatherForecast .WeatherForecast-day {
+  margin-bottom: 10px;
+}
+.WeatherForecast .WeatherForecast-temperatures {
+  margin-top: 10px;
+}
+.WeatherForecast-temperature-min {
+  opacity: 0.7;
+  margin-left: 5px;
+}
+.App footer {
+  margin-left: 30px;
+}
